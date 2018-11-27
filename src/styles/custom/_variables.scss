@@ -1,0 +1,52 @@
+// New color
+$new-primary: #1D7874;
+
+/* colors */
+$blue:    #007bff;
+$indigo:  #6610f2;
+$purple:  #131C4E;
+$pink:    #F9F0EE;
+$red:     #dc3545;
+$orange:  #fd7e14;
+$yellow:  #ffc107;
+$green:   #28a745;
+$teal:    #20c997;
+$cyan:    #17a2b8;
+
+
+$white:  #fff;
+$gray-100: #F3F4F7; //app edit
+$gray-200: #E1E1E4; //app edit
+$gray-300: #D8D8D8; //app edit
+$gray-400: #aab0ba; //app edit
+$gray-500: #848484; //app edit
+$gray-600: #676E86; //app edit
+$gray-700: #495057;
+$gray-800: #494847; //app edit
+$gray-900: #333333; //app edit
+$black:  #000;
+
+$grays: (
+  100: $gray-100,
+  200: $gray-200,
+  300: $gray-300,
+  400: $gray-400,
+  500: $gray-500,
+  600: $gray-600,
+  700: $gray-700,
+  800: $gray-800,
+  900: $gray-900
+);
+
+
+$theme-colors: (
+  primary: $new-primary,
+  secondary: $pink,
+  success: $green,
+  info: $gray-500,
+  warning: $yellow,
+  danger: $red,
+  light: $gray-100,
+  dark: $gray-900,
+  white: #fff
+);
